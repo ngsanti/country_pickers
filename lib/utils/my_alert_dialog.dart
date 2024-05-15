@@ -129,7 +129,7 @@ class MyAlertDialog<T> extends StatelessWidget {
         child: new Padding(
           padding: contentPadding,
           child: new DefaultTextStyle(
-            style: Theme.of(context).textTheme.subtitle1!,
+            style: Theme.of(context).textTheme.titleMedium!,
             child: content!,
           ),
         ),
